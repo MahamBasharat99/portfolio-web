@@ -1,0 +1,287 @@
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Satisfy-Regular.ttf);
+  }
+  
+  .foot-brand {
+    font-family: myFirstFont;
+    font-weight: bold;
+  }
+  #about{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .body{
+      overflow-x: hidden;
+  }
+  
+ #img{
+    top: 0;
+    z-index: 11;
+  position: sticky;
+    width: 100%;
+   
+ }
+
+#nav_div{
+    background-color: #FFD55A;
+    color:#3c4975;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+   
+}
+.img_self{
+    width: 100%;
+    height: 500px;
+    opacity: 0.6;
+}
+.text-img{
+    margin-top: -300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center !important;
+}
+@media only screen and (max-width: 900px) {
+.text-img{
+    font-size: 25px;
+    
+}
+}
+.navbar-brand {
+    font-size:35px !important;
+}
+@media only screen and (max-width: 380px) {
+    .logo-img{
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    .navbar-brand {
+        font-size:35px !important;
+    }
+    .logo-img>img{
+        width: 80px !important;
+        height: 70px !important;
+    }
+      .text-img{
+    font-size: 22px;
+   
+    margin-top: -450px;
+       }
+  .img_self{
+    width: 100%;
+  height: 650px;
+    opacity: 0.6;
+            }
+}
+
+
+
+
+#icon-img{
+    margin-top: -3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.inner{
+    overflow: hidden;
+    width: 100%;
+    height: 65%;
+  
+}
+.card-body{
+    height: 100px;
+    width: 18rem;
+  
+}
+.inner>img{
+    transition: all 1s ease;
+  width: 100%;
+  height: 100%;
+}
+.inner img:hover{
+    transform:scale(1.3)
+}
+.navbar-nav a:hover{
+border-radius: 50%;
+background-color:#6dd47e;
+color: #3c4975 !important;
+
+}
+.icon a:hover{
+    transition: all 1s ease;
+    transform:scale(1.1);
+    background-color: #FFD55A;
+}
+.icon:hover{
+    transition: all 1s ease;
+    transform:scale(1.1);
+    background-color: #FFD55A;
+    
+}
+#icon-img{
+    transition: all 1s ease;
+    transform:scale(1.1);
+}
+@media only screen and (max-width: 990px) {
+    .navbar-nav a:hover{
+        border-radius: 20%;
+        background-color:#6dd47e;
+        color:#3c4975 !important;
+        width: 150px;
+        
+        }
+        
+    .navbar-nav a{
+        border-radius: 10%;
+        margin-left: 5px;
+       padding: 1px 1px 1px 1px;
+       text-align: center;
+       width: 150px;
+      
+     
+        
+        }
+  }
+
+.body{
+    width: auto;
+}
+  
+  nav-link{
+    background-color:#3c4975 ;
+    color: #FFD55A;
+    height:  40px !important;
+}
+
+
+.card_shad{
+ 
+    box-shadow: 5px 10px  5px #6dd47e;
+    width: 18rem;
+    height:450px
+
+}
+
+.card_shad:hover{
+    box-shadow: 3px 3px 10px #54be66 ;
+}
+@media only screen and (max-width: 400px) {
+    .card_shad{
+ 
+        
+        width: 17rem !important;
+        height:450px;
+        text-align: center !important;
+        justify-self: center !important;
+        font-size: 15px;
+    
+    }
+    .card-body{
+        text-align: center !important;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        align-content: center;
+        margin: 0px auto;
+        margin-left: -20px;
+    }   
+    .card-body>h3{
+        font-size: 23px;
+    }
+}
+.navbar-toggler{
+    color: #3c4975!important;
+    background-color: white !important;
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+    
+ .nav-link{
+     background-color: #293250;
+     width: 63px;
+     height: 40px;
+ }
+            
+         
+ .nav-item>.active:hover { 
+    color:white;
+     background-color:#293250  ; 
+     border-radius: 70%;
+ }
+
+ .cartoon {
+    animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(360deg);
+    }
+}
+ 
+
+#img{
+   
+       background-image: url("images/.jpg" );
+
+    background-attachment: fixed;
+    background-size: 100%,100%;
+    width:100%;
+
+} 
+#brand{
+    display: inline-block;
+    color: #293250;
+}    
+  
+
+
+           
+
+       @media only screen and (max-width: 320px) {
+        .companydetails1{
+          
+         margin-right: 10px  !important;
+         width: 200px !important
+         ;
+            
+           }}
+           .yyyy{
+    background-color: #6dd47e;
+    
+            position: absolute;
+             bottom:70px;
+            right:30px;
+            
+            box-shadow: 5px 5px 10px black;
+            border-radius: 70%;
+           }
+       
+           @media only screen and (max-width: 360px) {
+          .foot-brand1{
+margin-left: -23px;
+          }}
+           @media only screen and (max-width: 760px) {
+          .companydetails1{
+margin-left: 27px;
+          }}
+          .btn-xm:focus{
+outline: none;
+          }
